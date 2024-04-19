@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(cyan , indigo);
 }
 
 button {
@@ -30,8 +30,46 @@ button {
 #list {
   margin: 10px;
   border: 1px solid #333;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 15px 20px 18px 18px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px #333;
+}
+
+.todonodeshigh {
+  margin: 10px;
+  border: 1px solid #333;
+  background: rgba(255, 0, 0, 0.75);
+  padding: 15px 20px 18px 18px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px #333;
+}
+
+.todonodesmedium {
+  margin: 10px;
+  border: 1px solid #333;
+  background: rgba(255, 255, 0, 0.75);
+  padding: 15px 20px 18px 18px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px #333;
+}
+
+.todonodeslow {
+  margin: 10px;
+  border: 1px solid #333;
+  background: rgba(0, 255, 0, 0.75);
+  padding: 15px 20px 18px 18px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px #333;
+}
+.todonodes {
+  margin: 10px;
+  border: 1px solid #333;
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+.todoelements {
+  margin: 0px
 }

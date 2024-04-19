@@ -10,15 +10,28 @@
     <h1>Task Lister Lite™️</h1>
 
     <form id="create-task-form" action="" method="POST">
-      <label for="new-task-description">Task description:</label>
-      <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+      <label for="new_task_description">New Task:</label>
+      <input type="text" id="new_task_description" name="new_task_description" placeholder="description">
+      <br>
+      <label for="new_task_due">Due Date:</label>
+      <input type="text" id="new_task_due" name="new_task_due" placeholder="due date">
+      <br>
+      <label for="new_task_priority">Priority:</label>
+      <select id="new_task_priority" name="new_task_priority" placeholder="Priority">
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select>
+        
       <input type="submit" value="Create New Task">
     </form>
 
     <div id="list">
       <h2>My Todos:</h2>
-      <ul id="tasks">
-      </ul>
+      <div id="tasks"></div>
+      <div id="hightasks"></div>
+      <div id="mediumtasks"></div>
+      <div id="lowtasks"></div>
     </div>
 
     <script src="./src/index.js"></script>
